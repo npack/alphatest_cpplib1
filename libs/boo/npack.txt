@@ -1,0 +1,6 @@
+CPP_LIBRARY (
+  NAME      boo
+  SOURCES   boo.cpp     
+  HEADERS   boo.h  
+)           
+
