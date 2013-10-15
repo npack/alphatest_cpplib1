@@ -2,5 +2,6 @@ CPP_LIBRARY (
   NAME      lib_1
   SOURCES   lib_1.cpp     
   HEADERS   lib_1.h  
+  REQUIRES  //libs/boo:boo
 )           
 

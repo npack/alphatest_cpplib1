@@ -2,5 +2,11 @@ CPP_LIBRARY (
   NAME      boo
   SOURCES   boo.cpp     
   HEADERS   boo.h  
+  REQUIRES  //libs/boo:proto
 )           
 
+
+PROTO_LIBRARY (
+  NAME      proto
+  SOURCES   boo.proto    
+)

@@ -1,2 +1,2 @@
 
-void SayHelloFrom1();
+void SayHelloFromBoo();

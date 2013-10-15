@@ -1,10 +1,16 @@
 #include <iostream>
-//#include "apps/lib_2.h"
+#include "libs/boo/boo.pb.h"
 
 using namespace std;
 
-void SayHelloFrom1(){
-  cout << "hello world FROM LIB 1" << endl;
-  //SayHelloFrom2();
+void SayHelloFromBoo(){
+  cout << "hello world FROM LIB Boo" << endl;
+
+  libs::boo::BoundingBox bb;
+  bb.set_x1(50);
+
+
+  cout << "bb " << bb.DebugString();
+
 }
 
